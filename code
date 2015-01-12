@@ -1,0 +1,33 @@
+var choice1 = prompt("Are you ready to run?")
+var choice2 = prompt("This is the story of your love..")
+
+var user =prompt("Are you ready to run?").toLowerCase();
+switch(user) {
+        case 'ive been waiting patiently for this':
+            
+            console.log("Im here to tell you a story");
+            var extra = prompt("do you know what this is for?").toLowerCase;
+            if(extra === "no" && choice2 === "why") {
+                console.log("ok");
+            }
+            else{
+                console.log("The empitness will haunt you!")
+            }
+            break;
+        case 'yes':
+            console.log("This is a story that will torture your thoughts by day and your dreams by night.");
+            var second = ("Are you...tilting the hour glass?").toLowercase;
+            if (second === "yes" || "maybe") {
+                console.log("then lets coninue");
+            }
+            else {
+                console.log("The emptiness will haunt you!");
+            }
+            break;
+        case 'no' :
+            console.log("The emptiness will haunt you");
+            break;
+        default :
+            console.log("Hmm...")
+            break;
+};
